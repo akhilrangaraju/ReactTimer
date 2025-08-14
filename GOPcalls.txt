@@ -1,0 +1,203 @@
+https://ekbn-dev2.fa.us6.oraclecloud.com/fscmRestApi/msp/latest/globalOrderPromises/checkAvailability
+
+Warehouse Level GOP Call
+{
+	"CallingModule": "GOP",
+	"CallingInstance": "GOP",
+	"RequestCreationDate": "2025-02-28",
+	"RequestTimeZone": "EST",
+	"ReleaseNumber": "1110900",
+	"UniqueOrderIdentifier": "1234",
+	"FulfillmentLineEntryList":{
+		"FulfillmentLine":{
+			"FulfillmentLineIdentifier":"1",
+			"SalesOrderNumber":"SO1",
+			"InstanceNumber": "GOP",
+			"SalesOrderLineNumber": "001",
+			"RequestType": "Order",
+			"RequestedCreationDate": "2025-02-28",
+			"RequestedItem": "17941106-001",
+			"PromisingType": "Ship",
+			"RequestedDateTime": "2024-11-02",
+			"RequestedQuantity": "20",
+			"RequestedQuantityUOM": "EA",
+			"UnitPrice": "5",
+			"PlanningMultiple": "1",
+			"SubstitutionsAllowedFlag": "false",
+			"SplitsAllowedFlag": "true",
+			"GenerateAltAvailabilityFlag": "true",
+			"AvailabilityBasis": "Delivery",
+			"GeneratePeggingFlag": "true",
+			"IgnoreReservationFlag": "false",
+			"IgnoreDateReservationFlag": "false",
+			"CustomerDetails" : {
+				"Party":"",
+				"PartySite":""
+			},
+			"RequestedShipFromOrg" :{
+				"OrgIdentifier" : "KIN1"
+			}
+
+		}
+	}
+}
+
+Global GOP Call
+
+{
+	"CallingModule": "GOP",
+	"CallingInstance": "GOP",
+	"RequestCreationDate": "2025-02-11",
+	"RequestTimeZone": "CST",
+	"ReleaseNumber": "1110900",
+	"UniqueOrderIdentifier": "1234",
+	"FulfillmentLineEntryList":{
+		"FulfillmentLine":{
+			"FulfillmentLineIdentifier":"",
+			"SalesOrderNumber":"",
+			"InstanceNumber": "GOP",
+			"SalesOrderLineNumber": "",
+			"RequestType": "Order",
+			"RequestedCreationDate": "2025-02-11",
+			"RequestedItem": "17941106-001",
+			"PromisingType": "Ship",
+			"RequestedDateTime": "2025-02-11",
+			"RequestedQuantity": "10",
+			"RequestedQuantityUOM": "EA",
+			"UnitPrice": "5",
+			"PlanningMultiple": "",
+			"SubstitutionsAllowedFlag": "true",
+			"SplitsAllowedFlag": "true",
+			"GenerateAltAvailabilityFlag": "true",
+			"AvailabilityBasis": "Delivery",
+			"GeneratePeggingFlag": "true",
+			"IgnoreReservationFlag": "false",
+			"IgnoreDateReservationFlag": "false",
+			"CustomerDetails" : {
+				"Party":"Nov Aftermarket Spares - Will Call",
+				"PartySite":"73382"
+			}
+
+
+		}
+	}
+}
+
+Multiple Items / Warehouse
+
+{
+	"CallingModule": "GOP",
+	"CallingInstance": "GOP",
+	"RequestCreationDate": "2025-02-28",
+	"RequestTimeZone": "EST",
+	"ReleaseNumber": "1110900",
+	"UniqueOrderIdentifier": "1234",
+	"FulfillmentLineEntryList":
+	[{
+		"FulfillmentLine":
+		{
+			"FulfillmentLineIdentifier":"1",
+			"SalesOrderNumber":"SO1",
+			"InstanceNumber": "GOP",
+			"SalesOrderLineNumber": "001",
+			"RequestType": "Order",
+			"RequestedCreationDate": "2025-02-28",
+			"RequestedItem": "17941106-001",
+			"PromisingType": "Ship",
+			"RequestedDateTime": "2025-02-28",
+			"RequestedQuantity": "20",
+			"RequestedQuantityUOM": "EA",
+			"UnitPrice": "5",
+			"PlanningMultiple": "1",
+			"SubstitutionsAllowedFlag": "false",
+			"SplitsAllowedFlag": "true",
+			"GenerateAltAvailabilityFlag": "true",
+			"AvailabilityBasis": "Delivery",
+			"GeneratePeggingFlag": "true",
+			"IgnoreReservationFlag": "false",
+			"IgnoreDateReservationFlag": "false",
+			"CustomerDetails" : {
+				"Party":"",
+				"PartySite":""
+			},
+			"RequestedShipFromOrg" :{
+				"OrgIdentifier" : "KIN1"
+			}
+	},	
+		"FulfillmentLine":{
+			"FulfillmentLineIdentifier":"2",
+			"SalesOrderNumber":"SO1",
+			"InstanceNumber": "GOP",
+			"SalesOrderLineNumber": "002",
+			"RequestType": "Order",
+			"RequestedCreationDate": "2025-02-28",
+			"RequestedItem": "17056555-001",
+			"PromisingType": "Ship",
+			"RequestedDateTime": "2025-02-28",
+			"RequestedQuantity": "20",
+			"RequestedQuantityUOM": "EA",
+			"UnitPrice": "5",
+			"PlanningMultiple": "1",
+			"SubstitutionsAllowedFlag": "false",
+			"SplitsAllowedFlag": "true",
+			"GenerateAltAvailabilityFlag": "true",
+			"AvailabilityBasis": "Delivery",
+			"GeneratePeggingFlag": "true",
+			"IgnoreReservationFlag": "false",
+			"IgnoreDateReservationFlag": "false",
+			"CustomerDetails" : {
+				"Party":"",
+				"PartySite":""
+			},
+			"RequestedShipFromOrg" :{
+				"OrgIdentifier" : "KIN1"
+			}
+		}
+ 
+	}]
+}
+
+
+https://ekbn-dev2.fa.us6.oraclecloud.com/fscmRestApi/msp/latest/globalOrderPromises/supplyAvailability
+
+Single item/org
+{ 
+	"CallingModule": "GOP",
+	"CallingInstance": "GOP",
+	"RequestCreationDateTime":"2024-11-02",
+	"QueryIdentifier": "2",
+	"StartDateTime": "2024-11-02",
+	"EndDateTime": "2024-12-02",
+	"ItemAtOrgList" :
+	[{ 
+		"ItemIdentifier" : "18283643-001",
+		"OrgInfo":{
+			"OrgIdentifier": "CON1"
+		}
+	}]  
+}
+
+
+
+Multiple items/orgs
+{ 
+	"CallingModule": "GOP",
+	"CallingInstance": "GOP",
+	"RequestCreationDateTime":"2025-02-28",
+	"QueryIdentifier": "2",
+	"StartDateTime": "2025-02-28",
+	"EndDateTime": "2024-11-02",
+	"ItemAtOrgList" :
+	[{ 
+		"ItemIdentifier" : "18283643-001",
+		"OrgInfo":{
+			"OrgIdentifier": "ODE3"
+		}
+	},
+	{ 
+		"ItemIdentifier" : "18283643-001",
+		"OrgInfo":{
+			"OrgIdentifier": "CON1"
+		}
+	}]  
+}

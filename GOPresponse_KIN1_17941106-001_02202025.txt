@@ -1,0 +1,727 @@
+{
+    "CheckAvailabilityOutput": {
+        "PromisingSystem": "HVGOP",
+        "PromisingInstance": "GOP",
+        "PromiseDateTime": "2025-02-20T00:00:00.000+0000",
+        "FulfillmentLineEntryResultList": [
+            {
+                "FulfillmentLineReplyList": [
+                    {
+                        "FulillmentLineIdentifier": "",
+                        "NumberOfAltOptions": 0,
+                        "DefaultAvailabilityOption": {
+                            "OptionRank": 0,
+                            "OptionSummary": "0",
+                            "FulfillmentLineResultList": [
+                                {
+                                    "FulfillmentLineIdentifier": "",
+                                    "TotalPrice": 50.0,
+                                    "TotalProfit": -587.5,
+                                    "TotalMargin": -92.16,
+                                    "TotalValue": 0.0,
+                                    "NumberOfSplits": 0,
+                                    "NumberOfSubstitutions": 0,
+                                    "FillRate": 100.0,
+                                    "NumberOfAtpItems": 0,
+                                    "NumberOfCtpItems": 1,
+                                    "ResultDetailList": [
+                                        {
+                                            "SplitLineIdentifier": "",
+                                            "PromisingStatus": "",
+                                            "RequestedDateTime": "2025-02-20T00:00:00.000+0000",
+                                            "PromisingType": "Ship",
+                                            "ExpectedArrivalDateTime": "2025-09-24T23:59:59.000+0000",
+                                            "ExpectedShipDateTime": "2025-09-24T23:59:59.000+0000",
+                                            "ExpectedPickDateTime": "2025-09-24T23:59:59.000+0000",
+                                            "RequestedItem": "17941106-001",
+                                            "ExpectedAvailableItem": "17941106-001",
+                                            "ExpectedAvailabilityOnRequestedDate": 0.0,
+                                            "ExpectedAvailableQuantity": 10.0,
+                                            "ExpectedAvailableQuantityUOM": "EA",
+                                            "ExpectedDropShipSupplierSourceSystem": "",
+                                            "ExpectedDemandClass": "",
+                                            "ExpectedTotalFulfilmentCost": 637.5,
+                                            "ExpectedShippingCost": 0.0,
+                                            "LineFillRate": 100.0,
+                                            "ExpectedShipFromOrgList": [
+                                                {
+                                                    "OrgIdentifier": "KIN1"
+                                                }
+                                            ],
+                                            "PeggingDetailList": [
+                                                {
+                                                    "ItemIdentifier": "17941106-001",
+                                                    "ShippingCalendar": "KIN1 Schedule",
+                                                    "ReceivingCalendar": "KIN1 Schedule",
+                                                    "ManufacturingCalendar": "KIN1 Schedule",
+                                                    "BackToBackFlag": false,
+                                                    "CtpDetailList": [
+                                                        {
+                                                            "Quantity": 10.0,
+                                                            "QuantityUom": "EA",
+                                                            "RoutingCode": "15843688",
+                                                            "StartDateTime": "2025-08-26T23:59:59.000+0000",
+                                                            "EndDateTime": "2025-09-24T23:59:59.000+0000",
+                                                            "ProcessingLeadTime": 21.0,
+                                                            "PostProcessingLeadTime": 0.0,
+                                                            "ConsumedMaterialList": [
+                                                                {
+                                                                    "ItemIdentifier": "18473786-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18473786-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18365008-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18365008-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18365009-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18365009-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18473785-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18473785-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18474251-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18474251-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18474290-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18474290-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "3",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18474339-001",
+                                                                    "Quantity": 30.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18474339-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 30.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 30.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18475099-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18475099-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18475306-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18475306-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18476783-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18476783-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18477045-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18477045-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18477046-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18477046-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18477047-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18477047-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18477048-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18477048-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18477062-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18477062-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18480110-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18480110-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18480237-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18480237-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "3",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18487210-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18487210-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "ItemIdentifier": "18487228-001",
+                                                                    "Quantity": 10.0,
+                                                                    "QuantityUnit": "EA",
+                                                                    "ConsumptionDateTime": "2025-08-26T23:59:59.000+0000",
+                                                                    "Cost": 0.0,
+                                                                    "OrgIdentifier": "KIN1",
+                                                                    "PeggingDetailList": [
+                                                                        {
+                                                                            "ItemIdentifier": "18487228-001",
+                                                                            "ShippingCalendar": "KIN1 Schedule",
+                                                                            "ReceivingCalendar": "KIN1 Schedule",
+                                                                            "ManufacturingCalendar": "KIN1 Schedule",
+                                                                            "BackToBackFlag": false,
+                                                                            "AtpDetailList": [
+                                                                                {
+                                                                                    "Quantity": 10.0,
+                                                                                    "QuantityUom": "EA",
+                                                                                    "AtpCost": 0.0,
+                                                                                    "AtpMode": "1",
+                                                                                    "LeadTime": 0.0,
+                                                                                    "RequiredQuantity": 10.0,
+                                                                                    "RequiredDateTime": "2025-02-20T00:00:00.000+0000"
+                                                                                }
+                                                                            ],
+                                                                            "OrgInfoList": [
+                                                                                {
+                                                                                    "OrgIdentifier": "KIN1"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "ConsumedResourceList": [
+                                                                {
+                                                                    "DeptIdentifier": "B1-ANS",
+                                                                    "ResourceIdentifier": "TBA4",
+                                                                    "Quantity": 7.5,
+                                                                    "QuantityUnit": "Hours",
+                                                                    "StartDateTime": "2025-09-19T00:00:00.000+0000",
+                                                                    "EndDateTime": "2025-09-24T23:59:59.000+0000",
+                                                                    "ResourceCalendar": "KIN1 Schedule",
+                                                                    "OrgIdentifier": "KIN1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "OrgInfoList": [
+                                                        {
+                                                            "OrgIdentifier": "KIN1"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
